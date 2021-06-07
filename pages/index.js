@@ -6,7 +6,7 @@ export default function Home({ filteredCoins }) {
   return (
     <Layout>
       <div className='coin_app'>
-        <SearchBar type='text' placeholder='Search...' />
+        <SearchBar type='search' placeholder='Search...' />
 
         <CoinList filteredCoins={filteredCoins} />
       </div>
