@@ -1,3 +1,20 @@
+<h1>Bitcoin Cryptocurrency Finance Price Tracker App - React + Next JS API Project</h1>
+Learn how to build a simple Bitcoin cryptocurrency finance price tracker app using React and Next JS.
+
+We will use a crypto API to get the data.
+
+I used the `/coins/markets` one and the `/coins/id` for the separate coin page.
+
+I have used `VS Code` and `Google Chrome` to create this project.
+
+I have used the extension `ES7 React/Redux/GraphQL/React-Native snippets` installed.
+
+[CRYPTO API](https://www.coingecko.com/en/api)
+
+- <i>Once you are on this page, just click get started and it will scroll down to the different options.</i>
+
+---
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
