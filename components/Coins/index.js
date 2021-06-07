@@ -1,9 +1,19 @@
 import styles from './Coins.module.css';
 
-const Coins = () => {
+const Coins = ({
+  name,
+  price,
+  symbol,
+  marketcap,
+  volume,
+  image,
+  priceChange,
+  id,
+}) => {
   return (
-    <div className={styles.container}>
-      <h1>coins</h1>
+    <div>
+      <h1>{name}</h1>
+      <p>{price}</p>
     </div>
   );
 };
