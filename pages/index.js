@@ -19,6 +19,13 @@ export default function Home({ filteredCoins }) {
   return (
     <Layout>
       <div className='coin_app'>
+        <span>
+          {'Developer'}
+          <a href='https://www.linkedin.com/in/nirajanmahara/' target='_blank'>
+            {' ©  Nirajan Mahara'}
+          </a>
+        </span>
+        
         <SearchBar
           type='search'
           placeholder='Search...'
