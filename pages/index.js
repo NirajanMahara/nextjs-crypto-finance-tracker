@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Coins from '../components/Coins';
 import SearchBar from '../components/SearchBar';
 
 export default function Home() {
@@ -11,6 +12,8 @@ export default function Home() {
       </Head>
 
       <SearchBar type='text' placeholder='Search...' />
+
+      <Coins />
     </div>
   );
 }
